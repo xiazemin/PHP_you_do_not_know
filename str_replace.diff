@@ -1,0 +1,8 @@
+001- Hello, world!
+001+ PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/php_mysqli.dll' - dlopen(/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/php_mysqli.dll, 9): image not found in Unknown on line 0
+002+ PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/redis.so' - dlopen(/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/redis.so, 9): image not found in Unknown on line 0
+003+ 
+004+ Warning: PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/php_mysqli.dll' - dlopen(/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/php_mysqli.dll, 9): image not found in Unknown on line 0
+005+ 
+006+ Warning: PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/redis.so' - dlopen(/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/redis.so, 9): image not found in Unknown on line 0
+007+ Hello, world!
