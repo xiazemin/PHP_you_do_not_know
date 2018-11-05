@@ -1,4 +1,18 @@
 <?php
+$ao=["a"=>1,"b"=>2,];
+function testArray($a){
+$a['a']=3;
+$a['c']=4;
+}
+testArray($ao);
+var_dump($ao);
+#testArray(clone (object)$ao);
+function testArray1(&$a){
+$a['a']=3;
+$a['c']=4;
+}
+testArray1($ao);
+var_dump($ao);
 $arr = array('a','b','c','d');
 unset($arr[1]);
 print_r($arr);
