@@ -12,3 +12,13 @@ var_dump(isJson($a));
 //bool(true)
 var_dump(json_decode($a));
 //int(1245)
+
+var_dump(is_object($a));
+//bool(false)
+var_dump(is_object(json_decode($a)));
+//bool(false)
+$a='[123456]';
+var_dump(is_object(json_decode($a)));
+//bool(false)
+var_dump(is_array(json_decode($a)));
+//bool(true)
